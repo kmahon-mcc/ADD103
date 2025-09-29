@@ -1,0 +1,16 @@
+ul {
+    list-style-type: square; /* Changes bullets to squares */
+}
+
+ol {
+    list-style-type: upper-roman; /* Changes numbers to Roman numerals */
+}
+
+dt {
+    font-weight: bold;
+    color: #4b3190;
+}
+dd {
+    font-style: italic;
+    color: #333;
+}
