@@ -1,15 +1,32 @@
 body {
     background-color: #2d545e;
 }
+body a {
+    background-color: #12343b;
+    color: #c89666;
+    border-radius: 10px;
+    text-decoration: none;
+    display: inline-block;
+    padding: 6px 10px;
+    margin: 5px 20px;
+    font-size: medium;
+}
+body a:hover {
+    color:#e1b382;
+    background-color: #4c3926;
+}
 h1 {
+    text-align: center;
     color:#e1b382;
     font-style: bold;
-    font-size: larger;
+    font-size: xx-large;
+    font-family: 'Courier New', Courier, monospace;
 }
 h2 {
     color: #c89666;
     font-style: bold;
-    font-size: large;
+    font-size: larger;
+    margin: 20px;
 }
 nav a {
     background-color: #12343b;
@@ -17,7 +34,11 @@ nav a {
     border-radius: 10px;
     text-decoration: none;
     display: inline-block;
-    padding: 5px 10px;
-    margin: 6px 8px;
+    padding: 8px 12px;
+    margin: 8px;
     font-size: large;
+}
+nav a:hover {
+    color:#e1b382;
+    background-color: #4c3926;
 }
