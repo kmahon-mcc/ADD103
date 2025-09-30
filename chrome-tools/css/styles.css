@@ -1,0 +1,26 @@
+body{
+    background: #393939;
+    color:#be4f0c;
+    font-family: courier new, monaco, monospace;
+}
+h1,h2{
+    font-size: 30px;
+    color:#ec7f37;
+}
+ol{
+    list-style-type: upper-roman;
+    list
+}
+ul{
+    list-style-type: circle;
+}
+dt,dd{
+    color:#FF5A09;
+}
+img {
+    border: 10px solid #000000;
+    width:800px;
+    object-position:center;
+    display: block;
+    margin: 0 auto
+}
