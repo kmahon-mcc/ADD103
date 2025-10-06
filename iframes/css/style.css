@@ -1,18 +1,21 @@
 body {
     background-color:cornsilk;
     font-family:'Courier New', Courier, monospace;
+    margin:
 }
 h1 {
     font-size: xx-large;
+    margin-left: 10%;
 }
 h2 {
     font-size: large;
+    margin-left: 10%;
 }
 iframe {
     display: block;
     border: none;
     margin: 0 auto;
-    height: fit-content;
     width: 90%;
+    aspect-ratio: 16/9;
     overflow: hidden;
 }
