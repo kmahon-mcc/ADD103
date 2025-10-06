@@ -1,17 +1,17 @@
 body {
     background-color:cornsilk;
-    font-family:'Courier New', Courier, monospace;
-    margin:
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 h1 {
     font-size: xx-large;
-    margin-left: 10%;
+    margin-left: 5%;
 }
 h2 {
     font-size: large;
-    margin-left: 10%;
+    margin-left: 7%;
 }
 iframe {
+    background-color: antiquewhite;
     display: block;
     border: none;
     margin: 0 auto;
