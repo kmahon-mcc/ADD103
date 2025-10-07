@@ -8,7 +8,7 @@ body a {
     text-decoration: none;
     display: inline-block;
     padding: 6px 10px;
-    margin: 5px 20px;
+    margin: 5px;
     font-size: medium;
 }
 body a:hover {
