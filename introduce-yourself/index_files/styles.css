@@ -1,0 +1,29 @@
+html {
+  background-color: #0f172a;
+  display: flex;
+  color:lightgrey;
+  font-family: 'Poppins';
+}
+header {
+  position: sticky;
+  top: 0;
+  background: rgba(10,10,30,.8);
+  border-bottom: 1px solid darkslategrey;
+  width:100vw;
+  height: 9vh;
+}
+nav{
+  padding: 3vh;
+  text-align: right;
+}
+nav a{
+  text-decoration: none;
+  color:inherit;
+  padding: 8px 12px;
+  border: 1px solid darkslategrey;
+  border-radius: 15px;
+  font-family: 'Poppins', Tahoma, sans-serif;
+}
+body{
+  margin:0;
+}

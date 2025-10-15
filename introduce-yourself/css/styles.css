@@ -1,0 +1,113 @@
+html {
+  background-color: rgb(30, 30, 60);
+  color: lightgrey;
+  font-family: "Poppins", Tahoma, sans-serif;
+}
+body {
+  margin: 0;
+}
+
+/*=== HEADER ===*/
+
+header {
+  position: sticky;
+  top: 0;
+  background: rgba(10, 10, 40, 0.8);
+  border-bottom: 2px solid rgb(30, 50, 50);
+}
+.nav-container {
+  display: flex;
+  max-width: 1100px;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin: 0 auto;
+  padding: 30px;
+}
+h1 {
+  margin: 30px;
+  font-size: xxx-large;
+}
+nav {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+nav a {
+  color: inherit;
+  background-color: rgb(30, 30, 60);
+  padding: 15px 20px;
+  border: 1px solid rgb(30, 50, 50);
+  border-radius: 30px;
+  text-decoration: none;
+  font-size: large;
+}
+nav a:hover {
+  background-color: rgb(25, 25, 50);
+}
+.current-page {
+  border: none;
+  background: none;
+}
+
+/*=== MAIN CONTENT ===*/
+
+main {
+  display: flex;
+  align-items: start;
+  max-width: 1000px;
+  min-height: 66vh;
+  line-height: 2.2;
+  margin: 0 auto;
+  padding: 20px;
+}
+#pfp-placard {
+  padding: 20px;
+  font-size: large;
+  p {
+    margin: 20px;
+  }
+}
+section {
+  display: block;
+  text-align: center;
+  margin: 20px 10px;
+  padding: 20px;
+  border-radius: 25px;
+  background-color: rgb(40, 40, 80);
+  font-size: large;
+  box-shadow: 0px 0px 30px rgb(25, 25, 50);
+  p {
+    margin: 20px;
+    text-align: left;
+  }
+}
+.column-set {
+  display: flex;
+  flex: 1;
+}
+.column {
+  flex: 1;
+}
+
+/*=== IMAGES ===*/
+
+img{
+  height: 250px;
+  margin: 10px;
+  border-radius: 15px;
+  box-shadow: 0px 0px 25px rgb(25, 25, 50);
+}
+.pfp {
+  border-radius: 50%;
+  box-shadow: 0px 0px 20px rgb(25, 25, 50);
+}
+
+/*=== FOOTER ===*/
+footer {
+  width: 100%;
+  bottom: 0;
+  font-size: small;
+  text-align: center;
+  margin-bottom: 20px;
+}
